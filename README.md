@@ -74,29 +74,4 @@ This README provides a basic guide; consult the API documentation for advanced f
 
 UML DIAGRAM:
 
-+-----------------+             +---------------------+              +----------------------+
-|   User          |             |   Frontend/Client   |              |      Server          |
-+-----------------+             +---------------------+              +----------------------+
-       |                                |                                     |
-       |    1. Requests Authentication  |                                     |
-       |-------------------------------->|                                    |
-       |                                |                                     |
-       |    2. POST /authenticate       |                                     |
-       |-------------------------------->|                                    |
-       |                                |                                     |
-       |                                |    3. Validates request and         |
-       |                                |       checks user credentials       |
-       |                                |------------------------------------>|
-       |                                |                                     |
-       |                                |    4. Responds with                 |
-       |                                |       authentication status         |
-       |                                |<------------------------------------|
-       |                                |                                     |
-       |                                |                                     |
-       |                                |                                     |
-       |                                |                                     |
-       |    5. Receives authentication  |                                     |
-       |       status                   |                                     |
-       |<-------------------------------|                                     |
-       |                                |                                     |
-
+![UML DIAGRAM](uml.png)

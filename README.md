@@ -3,10 +3,10 @@
 Your RESTful API Name
 Your RESTful API is designed to provide authentication and registration services. It exposes endpoints for user authentication and registration, allowing clients to securely access and manage user data.
 
-Getting Started
+## Getting Started
 To use this API, follow the instructions below.
 
-Prerequisites
+### Prerequisites
 Make sure you have the following prerequisites installed:
 
 Python 3.x
@@ -32,7 +32,7 @@ source venv/bin/activate
 Install dependencies:
 pip install -r requirements.txt
 
-Usage
+#### Usage
 
 Start the API server:
 python main.py
@@ -67,11 +67,11 @@ Request:
 Response:
 {"message": "User registered successfully"}
 
-Additional Information
+##### Additional Information
 Ensure that requests include the necessary parameters in the JSON payload.
 Review the API documentation for detailed information on each endpoint.
 This README provides a basic guide; consult the API documentation for advanced features and error handling.
 
-UML DIAGRAM:
+###### UML DIAGRAM:
 
 ![UML DIAGRAM](uml.png)

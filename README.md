@@ -71,3 +71,32 @@ Additional Information
 Ensure that requests include the necessary parameters in the JSON payload.
 Review the API documentation for detailed information on each endpoint.
 This README provides a basic guide; consult the API documentation for advanced features and error handling.
+
+UML DIAGRAM:
+
++-----------------+             +---------------------+              +----------------------+
+|   User          |             |   Frontend/Client   |              |      Server          |
++-----------------+             +---------------------+              +----------------------+
+       |                                |                                     |
+       |    1. Requests Authentication  |                                     |
+       |-------------------------------->|                                    |
+       |                                |                                     |
+       |    2. POST /authenticate       |                                     |
+       |-------------------------------->|                                    |
+       |                                |                                     |
+       |                                |    3. Validates request and         |
+       |                                |       checks user credentials       |
+       |                                |------------------------------------>|
+       |                                |                                     |
+       |                                |    4. Responds with                 |
+       |                                |       authentication status         |
+       |                                |<------------------------------------|
+       |                                |                                     |
+       |                                |                                     |
+       |                                |                                     |
+       |                                |                                     |
+       |    5. Receives authentication  |                                     |
+       |       status                   |                                     |
+       |<-------------------------------|                                     |
+       |                                |                                     |
+

@@ -32,7 +32,7 @@ source venv/bin/activate
 Install dependencies:
 pip install -r requirements.txt
 
-#### Usage
+### Usage
 
 Start the API server:
 python main.py
@@ -67,11 +67,11 @@ Request:
 Response:
 {"message": "User registered successfully"}
 
-##### Additional Information
+### Additional Information
 Ensure that requests include the necessary parameters in the JSON payload.
 Review the API documentation for detailed information on each endpoint.
 This README provides a basic guide; consult the API documentation for advanced features and error handling.
 
-###### UML DIAGRAM:
+## UML DIAGRAM:
 
 ![UML DIAGRAM](uml.png)
